@@ -8,6 +8,8 @@ android {
   compileSdkVersion versions.compileSdk
   buildToolsVersion versions.buildTools
 
+  namespace "com.afollestad.mnmlscreenrecord"
+
   packagingOptions {
     exclude 'META-INF/core_release.kotlin_module'
     exclude 'META-INF/library_release.kotlin_module'
